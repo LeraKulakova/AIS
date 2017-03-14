@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package model;
 
-/**
- *
- * @author Student
- */
+import java.util.Date;
+
 public class Client {
-    
+ String fio;
+ Passport dannie;
+ Date zaselenie;
+ Date viezda;
+ Nomer   nomer;
+ Usluga usluga1;
+ Usluga usluga2;
+ Usluga usluga3;
+ Float stoimost;
+ Sotrudnik sotrudnik;
 }
