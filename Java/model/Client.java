@@ -1,19 +1,19 @@
-
 package model;
 
 import java.util.Date;
 
 public class Client {
- private String fio;
- private Passport dannie;
- private Date zaselenie;
- private Date viezda;
- private Nomer   nomer;
- private Usluga usluga1;
- private Usluga usluga2;
- private Usluga usluga3;
- private Float stoimost;
- private Sotrudnik sotrudnik;
+
+    private String fio;
+    private Passport dannie;
+    private Date zaselenie;
+    private Date viezda;
+    private Nomer nomer;
+    private Usluga usluga1;
+    private Usluga usluga2;
+    private Usluga usluga3;
+    private Float stoimost;
+    private Sotrudnik sotrudnik;
 
     public String getFio() {
         return fio;
@@ -97,9 +97,7 @@ public class Client {
 
     @Override
     public String toString() {
-        return fio +" "+  dannie +" "+  nomer ;
+        return fio + " " + dannie + " " + nomer;
     }
 
-    
-    }
-
+}
