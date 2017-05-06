@@ -20,7 +20,6 @@ public class DolzhnostJFrame extends javax.swing.JFrame {
     
 
     public DolzhnostJFrame() {
-        initComponents
         initComponents();
     }
 
